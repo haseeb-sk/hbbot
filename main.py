@@ -217,9 +217,10 @@ def handle_text(message):
                      "it too. Finally, I’ll set this new photo as the chat profile photo! Next day I will reset the "
                      "chat profile photo with the one that was before."
                      "\n\nWith me it’s impossible to forget about birthdays of your friends! "
-                     "\n\nMy creator (@IronTony_Stark github.com/IronTony-Stark/Telegram-Happy-Birthday-Bot) said that "
-                     "he will be very thankful for your feedback, any suggestions are welcomed and bug reports are "
-                     "priceless! Well, personally I am not sure about the last, but my creator knows best", True)
+                     "\n\nMy creator (@haseeb_TG ) "
+                      
+                     "he will be very thankful for your feedback, any suggestions are welcomed and bug report @tgbotschat \n\n update @Royalbotz" , True)
+                     
 
 
 @bot.message_handler(commands=['nextbirthday'])
@@ -355,7 +356,7 @@ def handle_text(message):
                      "Hi! I'm so happy to meet you!!"
                      "\nNow add me to some chat group and type /mybirthday [your birth date in format dd.mm.yyyy]"
                      "\nType /aboutme if you want to get more info"
-                     "\nHope you enjoy! :)")
+                     "\nHope you enjoy! :)\n updates @Royalbotz / support @tgbotschat")
 
 
 @bot.callback_query_handler(lambda query: query.data == "pin")
